@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px 60px;
+}
+
+section {
+    background-color: #66f8ff;
+    color: #364902;
+    text-align: center;
+}
+
+section article p {
+    background-color: rgb(212, 172, 61);
+}
+
+section > p {
+    background-color: #aaf;
+    color: rgba(190, 153, 49, 0.74);
+}
+
+article {
+    background-color: rgba(255, 115, 0, 0.555);
+    font-size: 16px;
+}
+
+.short-text {
+    display: inline;
+}
+
+.lorem-ipsum {
+    text-align: justify;
+}
+
+.paragraph {
+    background-color: #ecea4b;
+}
+
+#paragraph {
+background-color: #ecea4b
+}
+
+#news {
+    background-color: #rgb(212, 172, 61);
+}
+
+#info {
+    background-color: #rgb(212, 172, 61)
+}
+
+#contact {
+    background-color: #7b4899
+}
+
+.short-text {
+    background-color: rgb(120, 72, 173); 
+}
+
+    #par{ 
+        background-color: rgb(118, 81, 160); 
+}
+
+#para {
+    color: #37144b
+}
