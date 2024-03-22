@@ -41,6 +41,7 @@ img, audio, video, iframe {
 }
 
 #contact {
+    background-color: green 
     display: block;
     text-align: center;
 }
