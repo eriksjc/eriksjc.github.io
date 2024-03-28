@@ -10,16 +10,16 @@ section {
 }
 
 section article p {
-    background-color: rgb(212, 172, 61);
+    background-color: rgb(61, 212, 61);
 }
 
 section > p {
     background-color: #aaf;
-    color: rgba(190, 153, 49, 0.74);
+    color: rgba(61, 190, 49, 0.74);
 }
 
 article {
-    background-color: rgba(255, 115, 0, 0.555);
+    background-color: rgba(60, 255, 0, 0.555);
     font-size: 16px;
 }
 
@@ -32,11 +32,11 @@ article {
 }
 
 .paragraph {
-    background-color: #ecea4b;
+    background-color: #4bec4b;
 }
 
 #paragraph {
-background-color: #ecea4b
+background-color: #7eec4b
 }
 
 #news {
@@ -48,17 +48,17 @@ background-color: #ecea4b
 }
 
 #contact {
-    background-color: #7b4899
+    background-color: #489967
 }
 
 .short-text {
-    background-color: rgb(120, 72, 173); 
+    background-color: rgb(72, 173, 111); 
 }
 
     #par{ 
-        background-color: rgb(118, 81, 160); 
+        background-color: rgb(81, 160, 107); 
 }
 
 #para {
-    color: #37144b
+    color: #144b1d
 }
