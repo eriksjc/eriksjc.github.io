@@ -1,26 +1,26 @@
 
 html {
-    background-color: #aa0;
+    background-color: rgb(23, 170, 0);
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
 }
 
 body {
-    background-color: #ff0;
+    background-color: rgb(51, 255, 0);
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
 }
 
 header {
-    background-color: #330;
+    background-color: rgb(62, 136, 20);
     color: #fff;
     padding: 20px;
 }
 
 nav {
-    background-color: #660;
+    background-color: rgb(102, 175, 73);
     color: #fff;
     padding: 10px;
 }
@@ -37,11 +37,11 @@ nav ul li {
 
 nav ul li button{
     border-radius: 10px;
-    background-color: aqua;
+    background-color: rgb(30, 255, 0);
 }
 
 nav ul li button:hover{
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 43);
 }
 
 a {
@@ -51,7 +51,7 @@ a {
 }
 
 section {
-    background-color: #ff3;
+    background-color: rgb(39, 165, 35);
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
@@ -60,7 +60,7 @@ section {
 }
 
 article, aside {
-    background-color: #ff6;
+    background-color: rgb(133, 255, 102);
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
@@ -68,7 +68,7 @@ article, aside {
 }
 
 h2, p, img, audio, video, iframe {
-    background-color: #ff9;
+    background-color: rgb(170, 255, 153);
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
@@ -84,11 +84,184 @@ img, audio, video, iframe {
 }
 
 .file {
-    background-color: #ff0;
+    background-color: rgb(85, 255, 0);
 }
 
 footer {
-    background-color: #333;
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding: 20px;
+}
+
+/* Media Queries */
+
+/* Extra Small screens */
+@media only screen and (max-width: 600px) {
+    * {
+        padding: 5px !important;
+        margin: 5px !important;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li button {
+        width: 100%;
+    }
+
+    section {
+        display: block;
+    }
+
+    img, audio, video, iframe {
+        width: 300px;
+    }
+}
+
+/* Small screens */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    * {
+        padding: 10px !important;
+        margin: 10px !important;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul li button {
+        width: 50%;
+    }
+
+    section {
+        display: block;
+    }
+
+    img, audio, video, iframe {
+        width: 400px;
+    }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    nav ul li {
+        display: inline;
+        margin-right: 5px;
+    }
+
+    section {
+        display: block;
+    }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    section {
+        display: block;
+    }
+}
+html {
+    background-color: rgb(23, 170, 0);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: rgb(51, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+header {
+    background-color: rgb(62, 136, 20);
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    background-color: rgb(102, 175, 73);
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li button{
+    border-radius: 10px;
+    background-color: rgb(30, 255, 0);
+}
+
+nav ul li button:hover{
+    background-color: rgb(43, 226, 43);
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section {
+    background-color: rgb(39, 165, 35);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+}
+
+article, aside {
+    background-color: rgb(133, 255, 102);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h2, p, img, audio, video, iframe {
+    background-color: rgb(170, 255, 153);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+img, audio, video, iframe {
+    width: 500px;
+}
+
+#contact {
+    display: block;
+    text-align: center;
+}
+
+.file {
+    background-color: rgb(85, 255, 0);
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
     color: #fff;
     padding: 20px;
 }
