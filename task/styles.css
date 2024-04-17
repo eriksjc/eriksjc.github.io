@@ -1,0 +1,39 @@
+
+
+body{
+    margin: 40px;
+}
+#div{
+    
+    display: flex;
+
+}
+#div1{
+    border: 2px solid black;
+    height: 460px;
+    width: 380%;
+    display: flex;
+}
+#div2{
+    border: 2px solid black;
+    height: 460px;
+    width: 380%;
+    display: flex;
+}
+#div3{
+    border: 2px solid black;
+    height: 460px;
+    width: 380%;
+    display: flex;
+}
+#div4{
+    border: 2px solid black;
+    height: 460px;
+    width: 380%;
+    display: flex;
+}
+div{
+    font-size: 30px;
+    border-radius:75px;
+    padding: 20px;
+}

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Քայլ 1-ին</h1>
+<br>
+<h4>Ստեղծում ենք արտաքին տեսքը</h4>
+<div class="hopar">
+Number:<select id="number" name="number" onchange="getNumber()">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+</select>
+<label for="bg">background:</label>
+<input type="color" name="bg" id="bg" onchange="getBgColor()">
+<label for="label"  >Text-color:</label>
+<input type="color" name="color" id="tc" onchange="getTcColor()">
+<label >Text:</label>
+<textarea placeholder="type your text" id="text" type="text" name="text" onchange="getTextColor()"></textarea><hr>
+</div>
+<table border="1" >
+
+<tr>
+    <th>Number</th>
+    <th>background:</th>
+    <th>Text-color</th>
+    <th>Text</th>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+<button onclick="Change()"> Change</button>
+<hr>
+<div id="div">
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+
+</div>
+
+
+
+    <script src="script.js">   
+
+    </script>
+</body>
+</html>
