@@ -42,3 +42,21 @@
             margin-left: 42%;
             font-size: 50px;
         }
+        .lab {
+text-align: center;
+        }
+        .inp {
+            margin-left: 81px;
+        }
+        .inpu {
+            margin-left: 58px;
+        }
+        .input {
+            margin-left: 55px;
+        }
+        i {
+            margin-left: 48%;
+        }
+        .sub {
+            margin:10px 0 0 10px;
+        }
