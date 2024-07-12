@@ -1,17 +1,14 @@
 import React from "react";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom";
 import Login from "./Login";
 import Register from "./Register";
 
-function Auth({ setToken }) {
+function Auth({ setToken, token }) {
     return (
         <div>
-            <Link to='/login'>Login</Link>
-            <Link to='/register'>Register</Link>
-
             <Routes>
-                <Route path="/login" element={<Login setToken={setToken}/>} />
-                <Route path="/register" element={<Register />} />
+                <Route path="/login" element={ token != '' ? <Navigate to='/' /> : <Login setToken={setToken}/>} />
+                <Route path="/register" element={ token != '' ? <Navigate to='/' /> : <Register setToken={setToken}/>} />
             </Routes>
         </div>
     );

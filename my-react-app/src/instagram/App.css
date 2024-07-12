@@ -118,6 +118,11 @@
     text-align: center;
   }
 
+  .navigation button {
+    min-width: 50px;
+    line-height: 1;
+  }
+
   .house:hover:after {
     content: " Home";
     font-size: 20px;
@@ -125,24 +130,36 @@
   .fa-house {
     font-size: 20px;
   }
+
   .search:hover:after {
     content: " Search";
     font-size: 20px;
   }
+
   .fa-magnifying-glass {
     font-size: 20px;
   }
+
   .new:hover:after  {
-    content: " Search";
+    content: " New";
     font-size: 20px;
   }
   .fa-plus {
     font-size: 20px;
   }
-  .sett:hover:after {
-    content: " Search";
+
+  .settings:hover:after {
+    content: " Settings";
     font-size: 20px;
   }
   .fa-gear{ 
+    font-size: 20px;
+  }
+  
+  .profile:hover:after  {
+    content: " Profile";
+    font-size: 20px;
+  }
+  .fa-user{ 
     font-size: 20px;
   }

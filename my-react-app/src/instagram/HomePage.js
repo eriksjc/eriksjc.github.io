@@ -47,28 +47,28 @@ function HomePage() {
       </div>
     </div>);
   return (
-    
+
     <div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <header>
-        <img src='./image/Logo-Instagram .png' className='lo'></img>
+        <img src='./image/Logo-Instagram.png' className='lo'></img>
         <main>
-          <div class="content">
+          <div className="content">
             <img src="https://dummyjson.com/600x600" alt="Instagram Post" />
           </div>
         </main>
-        <nav class="navigation">
-          
+        <nav className="navigation">
+
           <button> <Link to="/"><span className='house'><i className="fa-solid fa-house"></i></span></Link>     </button>
-          <br/>
-          <button><Link to="/users"><span className='search'><i class="fa-solid fa-magnifying-glass"></i></span> </Link>
+          <br />
+          <button><Link to="/users"><span className='search'><i className="fa-solid fa-magnifying-glass"></i></span> </Link>
           </button>
-          <br/>
-          <button><span className='new'><i class="fa-solid fa-plus"></i></span></button>
-          <br/>
-          <button><span className='sett'><i class="fa-solid fa-gear"></i></span> </button>
-          <br/>
-          <button><i class="fa-solid fa-user"></i>Profile</button>
+          <br />
+          <button><span className='new'><i className="fa-solid fa-plus"></i></span></button>
+          <br />
+          <button><span className='settings'><i className="fa-solid fa-gear"></i></span> </button>
+          <br />
+          <button><span className='profile'><i className="fa-solid fa-user"></i></span></button>
         </nav>
       </header>
     </div>

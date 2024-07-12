@@ -4,6 +4,7 @@ const Register = ({ setToken }) => {
   const apiUrl = 'https://progcourse.000webhostapp.com';
   const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
   const fullUrl = proxyUrl + apiUrl;
+  const backendUrl = 'https://opulent-trout-69v5w5wp4qw5c5r6v-3000.app.github.dev';
 
   const [form, setForm] = useState({ name: '', email: '', password: '', password_confirmation: ''});
 
@@ -14,7 +15,7 @@ const Register = ({ setToken }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      fetch(fullUrl + '/api/register', {
+      fetch(backendUrl + '/api/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -27,6 +28,7 @@ const Register = ({ setToken }) => {
                 .then((data) => {
                     console.log(data);
                     setToken(data.access_token);
+                    localStorage.setItem('token', data.access_token);
                 });
     } catch (error) {
       if (error.response) {

@@ -25,21 +25,19 @@ const App = () => {
     <div>
       <BrowserRouter>
         {
-          token != ''
-            ?
-            <div>
-              <button onClick={signedOut}>Logout</button>
-              {/* <Navigate to="/" replace={true} /> */}
-              <Routes>
-                <Route path='/users' element={<UserList token={token} />} />
-                <Route path='/' element={<Content token={token} />} />
-              </Routes>
-            </div>
-            :
-            <>
-              <Navigate to="/login" replace={true} />
-              <Auth setToken={setToken} />
-            </>
+          <>
+            {
+              token != '' ?
+                <button onClick={signedOut}>Logout</button>
+                :
+                <>
+                  <Link to='/login'>Login</Link>
+                  <Link to='/register'>Register</Link>
+                </>
+            }
+            <Content token={token} />
+            <Auth setToken={setToken} token={token} />
+          </>
         }
       </BrowserRouter>
 
